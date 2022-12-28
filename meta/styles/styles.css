@@ -42,11 +42,21 @@
 	margin: 0 10px;
 	text-decoration: none;
 	display: block;
+	padding: 10px;
 	color: white;
 }
 
 .navLinks:hover {
 	color: #3772ff;
+}
+
+#logOut {
+	background-color: #fa5f55;
+	border-radius: 20px;
+}
+
+#logOut a:hover {
+	color: #880808;
 }
 
 .icon-burger {
@@ -113,6 +123,14 @@
 	.navLinks {
 		font-size: 20px;
 	}
+
+	#logOut {
+		background-color: #fa5f55;
+		border-radius: 20px;
+		width: 57%;
+		align-self: center;
+	}
+
 	.headNav :checked ~ .links {
 		bottom: 0;
 	}
