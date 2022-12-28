@@ -79,6 +79,21 @@
 	height: 100vh;
 }
 
+.loginForm {
+	height: 70vh;
+	width: 100vw;
+	display: inline-block;
+	text-align: center;
+}
+
+.welcomeHeroText {
+	margin: 10px;
+}
+
+.userName {
+	margin: 20px;
+}
+
 .foot {
 	background-color: black;
 	padding: 0 20px;
