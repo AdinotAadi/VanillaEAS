@@ -9,6 +9,10 @@
 	scroll-behavior: smooth;
 }
 
+body {
+	background-color: #d3d3d3;
+}
+
 .logo {
 	color: white;
 	font-weight: bold;
@@ -80,26 +84,42 @@
 }
 
 .loginForm {
-	height: 70vh;
-	width: 100vw;
-	display: inline-block;
-	text-align: center;
+	padding: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
 }
 
 .welcomeHeroText {
+	align-items: center;
 	margin: 10px;
+	font-size: 25px;
+	font-weight: bold;
 }
 
 .userName {
 	margin: 20px;
 }
 
+.passWord {
+	margin: 20px;
+}
+
+.forgotPassDiv {
+	margin: 20px;
+}
+
 .foot {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 	background-color: black;
 	padding: 0 20px;
 	display: flex;
 	align-items: center;
-	height: 70px;
+	height: 30px;
 	color: white;
 	justify-content: flex-end;
 }
