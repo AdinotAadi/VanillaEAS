@@ -84,7 +84,7 @@ body {
 }
 
 .loginForm {
-	padding: 100px;
+	margin: 100px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -98,16 +98,18 @@ body {
 	font-weight: bold;
 }
 
-.userName {
-	margin: 20px;
-}
-
-.passWord {
-	margin: 20px;
-}
-
+.userName,
+.passWord,
 .forgotPassDiv {
 	margin: 20px;
+}
+
+#username,
+#password {
+	width: 250px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid grey;
 }
 
 .foot {
