@@ -181,7 +181,7 @@ body {
 .loginFormBtn {
 	margin: 20px;
 	height: 40px;
-	border-radius: 20px;
+	border-radius: 5px;
 }
 
 .previousRequests {
