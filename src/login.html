@@ -10,7 +10,7 @@
 			href="../meta/imgs/favicon.ico"
 			type="image/x-icon"
 		/>
-		<title>EAS - Admin Login</title>
+		<title>EAS - User Login</title>
 	</head>
 
 	<body>
@@ -20,7 +20,7 @@
 			<ul class="links">
 				<li><a href="../index.html" class="navLinks">Home</a></li>
 				<li>
-					<a href="./userLogin.html" class="navLinks">User Login</a>
+					<a href="./adminLogin.html" class="navLinks">Admin Login</a>
 				</li>
 				<li><a href="./profile.html" class="navLinks">View Profile</a></li>
 				<li><a href="./contact.html" class="navLinks">Contact Us</a></li>
@@ -35,7 +35,7 @@
 			</label>
 		</header>
 		<div class="loginForm">
-			<p class="welcomeHeroText">Welcome Back Admin!</p>
+			<p class="welcomeHeroText">Welcome Back!</p>
 			<form action="post">
 				<div class="userName">
 					<label for="username">Username</label>
@@ -44,7 +44,7 @@
 						type="text"
 						name="username"
 						id="username"
-						placeholder="Enter your admin username"
+						placeholder="Enter your username"
 					/>
 				</div>
 				<div class="passWord">
@@ -57,8 +57,18 @@
 						placeholder="Enter your password"
 					/>
 				</div>
+				<div class="loginAS">
+					<label for="levelSelect">Authorization level:</label>
+					<br />
+					<select name="authorizationLevel" id="levelSelect">
+						<option value="">Please choose an option</option>
+						<option value="faculty">Faculty</option>
+						<option value="adminHR">Admin/HR</option>
+						<option value="evaluator">Evaluator</option>
+					</select>
+				</div>
 				<div class="forgotPassDiv">
-					<a href="../src/contact.html" class="forgotPass">Forgot Password?</a>
+					<a href="./contact.html" class="forgotPass">Forgot Password?</a>
 				</div>
 			</form>
 		</div>

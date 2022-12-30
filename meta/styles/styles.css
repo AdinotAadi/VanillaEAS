@@ -59,6 +59,10 @@ body {
 	border-radius: 20px;
 }
 
+#logOut:hover {
+	background-color: #ffe9d1;
+}
+
 #logOut a:hover {
 	color: #880808;
 }
@@ -133,6 +137,37 @@ body {
 	margin: 0 10px;
 }
 
+.profileHero {
+	padding: 100px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.profileHeroImage img {
+	width: 200px;
+	height: auto;
+}
+
+.profileHeroName {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.profileHeroDetails {
+	width: auto;
+	vertical-align: middle;
+	margin-left: 50px;
+}
+
+.loginAS {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	padding: 20px;
+}
+
 @media screen and (max-width: 800px) {
 	.logo {
 		float: none;
@@ -183,5 +218,28 @@ body {
 	}
 	.headNav :checked ~ .icon-burger .line:nth-child(2) {
 		opacity: 0;
+	}
+
+	.profileHero {
+		padding: 50px;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		align-items: centre;
+	}
+
+	.profileHeroImage {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.profileHeroDetails {
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 }
