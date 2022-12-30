@@ -147,7 +147,7 @@ body {
 }
 
 .profileHero {
-	padding: 100px;
+	padding: 50px 100px;
 	display: flex;
 	flex-direction: row;
 	width: 100%;
@@ -184,10 +184,44 @@ body {
 	border-radius: 5px;
 }
 
-.previousRequests {
+.previousRequests,
+.applyForAppraisal {
 	font-size: 25px;
 	padding: 0px 20px;
 	text-align: center;
+}
+
+.appFormDiv {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.applyForAppraisal,
+.prevReqTexts {
+	margin: 20px;
+}
+
+.appraisalForm {
+	border: 1px solid grey;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 100px;
+}
+
+.certsPubs {
+	font-size: 20px;
+}
+
+.appSubmitBtn {
+	height: 30px;
+	margin: 5px 100px;
+}
+
+.certsPubs * {
+	margin: 10px;
 }
 
 @media screen and (max-width: 800px) {
@@ -263,5 +297,10 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.appraisalForm {
+		margin: 10px;
+		padding: 10px 10px;
 	}
 }

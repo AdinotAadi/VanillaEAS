@@ -44,8 +44,25 @@
 				</p>
 			</div>
 		</div>
+		<div class="applyForApp">
+			<p class="applyForAppraisal">Apply for Appraisal</p>
+			<div class="appFormDiv">
+				<form action="post" class="appraisalForm">
+					<div class="certsPubs">
+						<label for="uploadCert">Upload Certificate(s)[At least 1]:</label>
+						<input type="file" name="uploadCert" id="uploadCert" />
+					</div>
+					<div class="certsPubs">
+						<label for="uploadPub">Upload Publication(s)[At least 1]:</label>
+						<input type="file" name="uploadPub" id="uploadPub" />
+					</div>
+					<button type="submit" class="appSubmitBtn">Submit</button>
+				</form>
+			</div>
+		</div>
 		<div class="previousRequests">
 			<p class="prevReqTexts">Your previous requests:</p>
+			<div class="reqList"></div>
 		</div>
 		<div class="foot">
 			<a class="copyright" href="https://www.xavier.ac.in" title="XIE Home"
