@@ -112,8 +112,17 @@ body {
 #password {
 	width: 250px;
 	height: 30px;
+	padding: 10px;
 	border-radius: 5px;
 	border: 1px solid grey;
+}
+
+#levelSelect {
+	width: 250px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	padding: 10px;
 }
 
 .foot {
@@ -157,6 +166,7 @@ body {
 
 .profileHeroDetails {
 	width: auto;
+	margin-top: 50px;
 	vertical-align: middle;
 	margin-left: 50px;
 }
@@ -166,6 +176,18 @@ body {
 	flex-direction: column;
 	align-content: center;
 	padding: 20px;
+}
+
+.loginFormBtn {
+	margin: 20px;
+	height: 40px;
+	border-radius: 20px;
+}
+
+.previousRequests {
+	font-size: 25px;
+	padding: 0px 20px;
+	text-align: center;
 }
 
 @media screen and (max-width: 800px) {

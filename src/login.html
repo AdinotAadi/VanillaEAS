@@ -19,9 +19,6 @@
 			<div class="logo">EAS</div>
 			<ul class="links">
 				<li><a href="../index.html" class="navLinks">Home</a></li>
-				<li>
-					<a href="./adminLogin.html" class="navLinks">Admin Login</a>
-				</li>
 				<li><a href="./profile.html" class="navLinks">View Profile</a></li>
 				<li><a href="./contact.html" class="navLinks">Contact Us</a></li>
 				<li id="logOut">
@@ -58,14 +55,17 @@
 					/>
 				</div>
 				<div class="loginAS">
-					<label for="levelSelect">Authorization level:</label>
-					<br />
-					<select name="authorizationLevel" id="levelSelect">
-						<option value="">Please choose an option</option>
-						<option value="faculty">Faculty</option>
-						<option value="adminHR">Admin/HR</option>
-						<option value="evaluator">Evaluator</option>
-					</select>
+					<form action="">
+						<label for="levelSelect">Authorization level:</label>
+						<br />
+						<select name="authorizationLevel" id="levelSelect" required>
+							<option value="">Please choose an option</option>
+							<option value="faculty">Faculty</option>
+							<option value="adminHR">Admin/HR</option>
+							<option value="evaluator">Evaluator</option>
+						</select>
+						<button type="submit" class="loginFormBtn">Login</button>
+					</form>
 				</div>
 				<div class="forgotPassDiv">
 					<a href="./contact.html" class="forgotPass">Forgot Password?</a>
