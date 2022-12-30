@@ -224,6 +224,24 @@ body {
 	margin: 10px;
 }
 
+.guestLectureRadios {
+	display: inline-flex;
+}
+
+.guestLectureRadios div {
+	margin: 0px 10px;
+}
+
+.guestLecture {
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.guestLectureCerts {
+	text-align: center;
+}
+
 @media screen and (max-width: 800px) {
 	.logo {
 		float: none;

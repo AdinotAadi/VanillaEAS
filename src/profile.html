@@ -56,6 +56,32 @@
 						<label for="uploadPub">Upload Publication(s)[At least 1]:</label>
 						<input type="file" name="uploadPub" id="uploadPub" required />
 					</div>
+					<div class="lectureHours">
+						<label for="hours">Number of hours of lectures conducted:</label>
+						<input type="number" name="hours" id="hours" required />
+					</div>
+					<div class="guestLecture">
+						<label for="lecturesAttended">Workshops?</label>
+						<div class="guestLectureRadios">
+							<div class="attendedDiv">
+								<input type="radio" name="workshops" id="attended" />
+								<label for="attended">Attended</label>
+							</div>
+							<div class="conductedDiv">
+								<input type="radio" name="workshops" id="conducted" />
+								<label for="conducted">Conducted</label>
+							</div>
+						</div>
+					</div>
+					<div class="guestLectureCerts">
+						<label for="uploadGuestLectureCert">Upload Certificate(s):</label>
+						<input
+							type="file"
+							name="uploadGuestLectureCert"
+							id="uploadGuestLectureCert"
+							required
+						/>
+					</div>
 					<button type="submit" class="appSubmitBtn">Submit</button>
 				</form>
 			</div>
